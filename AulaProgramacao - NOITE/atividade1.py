@@ -1,13 +1,7 @@
-nome: str = ""
-print("Informe seu nome, garanhão: ")
-nome = input()
+login: str = input("Digite o seu login de usuário: ")
+senha: str = input("Digite a senha: ")
 
-cidade: str = ""
-print("Informe sua cidade: ")
-cidade = input()
-
-idade: int = 0
-print("Qual a sua idade? ")
-idade = input()
-
-print("Meu nome é", nome,", moro em", cidade,"e tenho", idade, "anos.")
+if senha == "admin@2025":
+    print("Autenticação Realizada com Sucesso")
+else:
+    print("Senha Inválida!")
