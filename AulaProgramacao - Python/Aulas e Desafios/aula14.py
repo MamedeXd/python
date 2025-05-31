@@ -22,3 +22,23 @@ dict_proprietario["cpf_prop"] = cpf #cpf_prop é a chave que está sendo criada 
 dict_proprietario["tel_prop"] = tel #tel_prop é a chave que está sendo criada para o telefone
 
 print(dict_proprietario)
+
+#Retorna as chaves do dicionário
+print(dict_carro.keys())
+
+#Retorna os valores do dicionário
+print(dict_carro.values())
+
+for item in dict_carro.keys():
+    print(dict_carro[item])
+
+#ou:
+# for item in dict_carro.keys():
+# print(dict_carro.get(item))
+
+#Apagar um elemento
+dict_carro.pop("marca")
+print(dict_carro)
+
+del dict_carro["modelo"]
+print(dict_carro)

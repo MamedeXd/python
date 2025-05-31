@@ -1,3 +1,5 @@
+import aula15
+
 '''
 Crie um programa que receba uma palavra e uma letra.
 Conte quantas vezes a letra digitada aparece na palavra.
@@ -10,8 +12,9 @@ for letra in palavra:
     print("A letra atual: ", letra)
     if letra == letra_buscada:
         total = total + 1
-print(f"O total de {letra_buscada} na palavra {palavra} é {total}.")
+print(f"O total de '{letra_buscada}' na palavra {palavra} é {total}.")
 
+aula15.somar()
 
 '''
 palavra: str = input("Digite uma palavra: ")
